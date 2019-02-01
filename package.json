@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-solfegejs",
+  "version": "8.0.1",
+  "author": "neolao <contact@neolao.com>",
+  "description": "Additional ESLint's rules for Node.js",
+  "repository": "https://github.com/solfegejs/eslint-plugin.git",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=4.19.1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "node",
+    "nodejs",
+  ]
+}

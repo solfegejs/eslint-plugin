@@ -8,9 +8,7 @@ module.exports = {
         node: true
       },
       extends: ['airbnb', 'prettier'],
-      plugins: [
-        'node'
-      ],
+      plugins: ['node', 'prettier'],
       rules: {
         "no-process-exit": "error",
         "node/exports-style": "off",
@@ -33,7 +31,9 @@ module.exports = {
         "node/prefer-global/url-search-params": "off",
         "node/prefer-global/url": "off",
         "node/process-exit-as-throw": "error",
-        "node/shebang": "error"
+        "node/shebang": "error",
+        "class-methods-use-this": "off",
+        "prettier/prettier": "error",
       }
     }
   }

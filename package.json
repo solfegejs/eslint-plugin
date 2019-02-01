@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-solfegejs",
-  "version": "8.0.1",
+  "version": "1.0.0",
   "author": "neolao <contact@neolao.com>",
   "description": "Additional ESLint's rules for Node.js",
   "repository": "https://github.com/solfegejs/eslint-plugin.git",
@@ -20,6 +20,10 @@
     "eslintplugin",
     "eslint-plugin",
     "node",
-    "nodejs",
-  ]
+    "nodejs"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0"
+  }
 }

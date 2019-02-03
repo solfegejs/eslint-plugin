@@ -34,6 +34,7 @@ module.exports = {
         "node/shebang": "error",
         "class-methods-use-this": "off",
         "prettier/prettier": "error",
+        "no-console": "off",
       }
     }
   }

@@ -5,10 +5,15 @@ module.exports = {
         ecmaVersion: 2019
       },
       env: {
-        node: true
+        node: true,
+        "jest/globals": true,
       },
-      extends: ['airbnb', 'prettier'],
-      plugins: ['node', 'prettier'],
+      extends: [
+        "airbnb",
+        "prettier",
+        "plugin:jest/recommended",
+      ],
+      plugins: ["node", "prettier", "jest"],
       rules: {
         "no-process-exit": "error",
         "node/exports-style": "off",
@@ -32,6 +37,11 @@ module.exports = {
         "node/prefer-global/url": "off",
         "node/process-exit-as-throw": "error",
         "node/shebang": "error",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error",
         "class-methods-use-this": "off",
         "prettier/prettier": "error",
         "no-console": "off",

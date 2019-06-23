@@ -49,6 +49,7 @@ module.exports = {
         "no-plusplus": "off",
         "no-continue": "off",
         "array-element-newline": ["error", "consistent"],
+        "no-restricted-syntax": "off",
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-solfegejs",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "neolao <contact@neolao.com>",
   "description": "Additional ESLint's rules for Node.js",
   "repository": "https://github.com/solfegejs/eslint-plugin.git",

@@ -48,6 +48,7 @@ module.exports = {
         "no-console": "off",
         "no-plusplus": "off",
         "no-continue": "off",
+        "array-element-newline": ["error", "consistent"],
       }
     }
   }

@@ -50,6 +50,7 @@ module.exports = {
         "no-continue": "off",
         "array-element-newline": ["error", "consistent"],
         "no-restricted-syntax": "off",
+        "guard-for-in": "off",
       }
     }
   }

@@ -46,6 +46,8 @@ module.exports = {
         "class-methods-use-this": "off",
         "prettier/prettier": "error",
         "no-console": "off",
+        "no-plusplus": "off",
+        "no-continue": "off",
       }
     }
   }

@@ -51,6 +51,7 @@ module.exports = {
         "array-element-newline": ["error", "consistent"],
         "no-restricted-syntax": "off",
         "guard-for-in": "off",
+        "no-await-in-loop": "off",
       }
     }
   }

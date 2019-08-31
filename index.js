@@ -15,7 +15,7 @@ module.exports = {
       ],
       plugins: ["node", "prettier", "jest"],
       rules: {
-        "no-process-exit": "error",
+        "no-process-exit": "off",
         "node/exports-style": "off",
         "node/no-deprecated-api": "error",
         "node/no-extraneous-import": "off",

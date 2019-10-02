@@ -52,7 +52,8 @@ module.exports = {
         "no-restricted-syntax": "off",
         "guard-for-in": "off",
         "no-await-in-loop": "off",
-        "no-underscore-dangle": "off"
+        "no-underscore-dangle": "off",
+        "no-bitwise": "off"
       }
     }
   }
